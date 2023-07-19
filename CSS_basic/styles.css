@@ -1,0 +1,53 @@
+body, main
+{ display:flex
+
+}
+body{
+    flex-direction:column;
+    background-color: pink;
+}
+main{
+    flex-direction:row;
+    flex:auto;
+}
+article{
+    flex: 2;
+    overflow-y: auto;
+}
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+header{
+    background-color:mediumspringgreen;
+    padding: 10px;
+    text-align: center;
+}
+.Logo {
+    font-size:40px;
+    margin-right:30px;
+ 
+}
+ol li:hover{
+    background-color: brown;
+}
+ul li:hover{
+    background-color: aqua;
+}
+article{
+padding:20px;
+margin:20px auto;
+border: 3px;
+}
+article h1,h2,h3{
+    color: blueviolet;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+    body.works_on_smartphone {
+        display: block;
+
+
