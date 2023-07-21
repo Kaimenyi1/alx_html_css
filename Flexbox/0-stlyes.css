@@ -139,11 +139,11 @@
     float:left;
 }
 /* Section Latest news ============================= *//*** 4. CARD ***/
-#latest_news  ul.row{
+.section-latest-news .row{
     display:flex;
     flex-direction:row-reverse;}
     /* Section SERVICES ============================= *//*** 4. CARD ***/
-#services.row{
+.section-services .row{
     display:flex;
     flex-wrap:wrap;
 }
